@@ -559,6 +559,8 @@
 		} else if (days == 0) {
 			document.getElementById("name").innerHTML = `H Accounting - Today`;
 		}
+
+		fetch('https://qwk.pythonanywhere.com/l/sqa-h-accounting').catch(() => {});
 	</script>
 </body>
 </html>

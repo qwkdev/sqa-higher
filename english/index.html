@@ -559,6 +559,8 @@
 		} else if (days == 0) {
 			document.getElementById("name").innerHTML = `H English - Today`;
 		}
+
+		fetch('https://qwk.pythonanywhere.com/l/sqa-h-english').catch(() => {});
 	</script>
 </body>
 </html>
